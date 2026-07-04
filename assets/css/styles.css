@@ -727,12 +727,12 @@ h2 {
   gap: 8px;
 }
 .partner-card .logo-wrap {
-  min-height: 84px;
-  padding: 12px;
+  min-height: 76px;
+  padding: 10px;
   border-radius: 18px;
 }
 .partner-card .logo-wrap img {
-  max-height: 58px;
+  max-height: 44px;
 }
 .partner-card h3 {
   font-size: .92rem;
