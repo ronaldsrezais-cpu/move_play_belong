@@ -743,9 +743,10 @@ h2 {
 
 .contact-layout {
   display: grid;
-  grid-template-columns: .95fr 1.05fr;
+  grid-template-columns: minmax(0, 760px);
   gap: 20px;
 }
+.contact-layout .contact-card { width: 100%; }
 .contact-card {
   background: white;
   border: 1px solid var(--line);
@@ -772,16 +773,16 @@ h2 {
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 360px 1fr;
   gap: 26px;
   align-items: center;
 }
 .eu-logo-box {
-  background: white;
-  border-radius: 18px;
-  padding: 14px;
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
 }
-.eu-logo-box img { width: 100%; }
+.eu-logo-box img { width: 100%; display: block; }
 .disclaimer { font-size: .94rem; line-height: 1.65; margin: 0; }
 .footer-small { color: rgba(255,255,255,.55); margin-top: 16px; font-size: .86rem; }
 
@@ -814,3 +815,5 @@ h2 {
   .section { padding: 42px 0; }
   .section-header { display: block; }
 }
+
+.secondary-featured-news { margin-top: 22px; }
