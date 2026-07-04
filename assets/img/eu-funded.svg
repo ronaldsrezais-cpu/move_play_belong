@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="96" viewBox="0 0 320 96" role="img" aria-labelledby="title desc">
+  <title id="title">Funded by the European Union</title>
+  <desc id="desc">European Union emblem with the text Funded by the European Union</desc>
+  <rect width="320" height="96" rx="10" fill="#ffffff"/>
+  <rect x="14" y="18" width="72" height="48" fill="#003399"/>
+  <g fill="#FFCC00">
+    <circle cx="50" cy="27" r="2.2"/>
+    <circle cx="60.5" cy="29.8" r="2.2"/>
+    <circle cx="68.2" cy="37.5" r="2.2"/>
+    <circle cx="71" cy="48" r="2.2"/>
+    <circle cx="68.2" cy="58.5" r="2.2"/>
+    <circle cx="60.5" cy="66.2" r="2.2"/>
+    <circle cx="50" cy="69" r="2.2"/>
+    <circle cx="39.5" cy="66.2" r="2.2"/>
+    <circle cx="31.8" cy="58.5" r="2.2"/>
+    <circle cx="29" cy="48" r="2.2"/>
+    <circle cx="31.8" cy="37.5" r="2.2"/>
+    <circle cx="39.5" cy="29.8" r="2.2"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#1f2937">
+    <text x="104" y="41" font-size="14" font-weight="700">Funded by</text>
+    <text x="104" y="60" font-size="14" font-weight="700">the European Union</text>
+  </g>
+</svg>
